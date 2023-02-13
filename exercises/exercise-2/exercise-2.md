@@ -7,7 +7,7 @@ For each character you have the following information:
 
 - First Name
 - Last Name
-- School House
+- House
 - Pet
 - Occupation
 
