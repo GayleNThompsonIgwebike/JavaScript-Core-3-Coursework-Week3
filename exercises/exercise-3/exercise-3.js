@@ -9,18 +9,15 @@ let order = [
 
 // let [menuItem1, menuItem2, menuItem3, menuItem4, menuItem5, menuItem6] = order;
 
-// console.log(menuItem3.unitPrice)
-// console.log(order.length)
-
-
-
  let total = 0;
- for (let {itemName: food, quantity: num, unitPrice: price} of order){
-  console.log(`${num}   ${food}  ${price * num}.`)
+  console.log("QTY".padEnd(6) + "Item".padEnd(15) + "Total");
+  console.log(" ")
+  for (let {itemName: food, quantity: num, unitPrice: price} of order){
+  console.log(`${num.toString(6)}  ${food.padEnd(17)}  ${price * num}.`);
   console.log(" ")
   total = price * num + total;
  }
-
  console.log(`Total: ${total}`)
+
 
 
