@@ -96,6 +96,10 @@ let {occupation, pet} = teacher;
 let {firstName, lastName} = teacher;
 console.log(`${firstName} ${lastName}`);
 })
+console.log(" ")
+
+
+
 
 
 

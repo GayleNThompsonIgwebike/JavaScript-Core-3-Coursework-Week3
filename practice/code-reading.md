@@ -12,9 +12,11 @@ Take a look at the following code:
 5        console.log(x);
 6    }
 7    console.log(x);
-```
 
 Explain why line 4 and line 6 output different numbers.
+
+Q1.Answer: Line 1 is a variable with a 'global' scope, whereas line 4 is a variable within a 'local' scope. The locally scoped variable only exists within that function and so can only display the values assigned it in that function.
+```
 
 ## Question 2
 
@@ -34,6 +36,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+Q2. ANSWER: In this code, the value of x will output 10 as it is a globally scopped variable. The terminal will not log the y variable because it only exists within it's function as a local variable. To see the output, you'll need to log the function within itself.
 
 ## Question 3
 

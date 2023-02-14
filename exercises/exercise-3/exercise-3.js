@@ -16,7 +16,7 @@ let order = [
 
  let total = 0;
  for (let {itemName: food, quantity: num, unitPrice: price} of order){
-  console.log(`${num}   ${food}   ${price * num}.`)
+  console.log(`${num}   ${food}  ${price * num}.`)
   console.log(" ")
   total = price * num + total;
  }
